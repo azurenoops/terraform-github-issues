@@ -32,7 +32,7 @@ function logError(
 }
 
 export async function createAnIssue(tools: Toolkit) {
-  const template = tools.inputs.filename || ".github/ISSUE_TEMPLATE.md";
+  const template = tools.inputs.filename || ".github/DRIFT_ISSUE_TEMPLATE.md";
   const assignees = tools.inputs.assignees;
 
   let updateExisting: Boolean | null = null;

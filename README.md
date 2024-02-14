@@ -19,10 +19,7 @@ Here's an example workflow that creates a new issue any time you push a commit:
         steps:
         - uses: actions/checkout@v2
         - name: Create issue
-          uses: azurenoops/terraform-github-issues@v1
-          with:
-            token: ${{ secrets.GITHUB_TOKEN }}
-            template: .github/ISSUE_TEMPLATE.md
+          uses: azurenoops/terraform-github-issues@v1        
     ```
 
 ### Inputs

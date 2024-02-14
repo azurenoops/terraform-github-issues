@@ -189,7 +189,7 @@ exports[`create-an-issue finds, but does not update an existing issue with the s
 exports[`create-an-issue logs a helpful error if creating an issue throws an error 1`] = `
 [
   [
-    "An error occurred while creating the issue. This might be caused by a malformed issue title, or a typo in the labels or assignees. Check .github/ISSUE_TEMPLATE.md!",
+    "An error occurred while creating the issue. This might be caused by a malformed issue title, or a typo in the labels or assignees. Check .github/DRIFT_ISSUE_TEMPLATE.md!",
   ],
   [
     [HttpError: Validation error],
@@ -200,7 +200,7 @@ exports[`create-an-issue logs a helpful error if creating an issue throws an err
 exports[`create-an-issue logs a helpful error if creating an issue throws an error with more errors 1`] = `
 [
   [
-    "An error occurred while creating the issue. This might be caused by a malformed issue title, or a typo in the labels or assignees. Check .github/ISSUE_TEMPLATE.md!",
+    "An error occurred while creating the issue. This might be caused by a malformed issue title, or a typo in the labels or assignees. Check .github/DRIFT_ISSUE_TEMPLATE.md!",
   ],
   [
     [HttpError: Validation error: {"foo":true}],
@@ -237,7 +237,7 @@ exports[`create-an-issue logs a helpful error if the frontmatter is invalid 1`] 
 exports[`create-an-issue logs a helpful error if updating an issue throws an error with more errors 1`] = `
 [
   [
-    "An error occurred while updating the issue. This might be caused by a malformed issue title, or a typo in the labels or assignees. Check .github/ISSUE_TEMPLATE.md!",
+    "An error occurred while updating the issue. This might be caused by a malformed issue title, or a typo in the labels or assignees. Check .github/DRIFT_ISSUE_TEMPLATE.md!",
   ],
   [
     [HttpError: Validation error: {"foo":true}],

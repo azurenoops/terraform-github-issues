@@ -15,7 +15,7 @@ inputs:
     required: false
   filename:
     description: The name of the file to use as the issue template
-    default: .github/ISSUE_TEMPLATE.md
+    default: .github/DRIFT_ISSUE_TEMPLATE.md
     required: false
   update_existing:
     description: Update an open existing issue with the same title if it exists

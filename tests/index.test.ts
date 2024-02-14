@@ -65,7 +65,7 @@ describe("create-an-issue", () => {
   it("creates a new issue from a different template", async () => {
     process.env.INPUT_FILENAME = ".github/different-template.md";
     tools.context.payload = {
-      repository: { owner: { login: "jrspinella" }, name: "test" },
+      repository: { owner: { login: "jrspinella" }, name: "test-repo" },
     };
     await createAnIssue(tools);
     expect(params).toMatchSnapshot();
