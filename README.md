@@ -22,22 +22,6 @@ Here's an example workflow that creates a new issue any time you push a commit:
           uses: azurenoops/terraform-github-issues@v1        
     ```
 
-### Inputs
-
-#### `token`
-
-**Required** The GitHub token to use to authenticate with the GitHub API. This is usually `${{ secrets.GITHUB_TOKEN }}`.
-
-#### `template`
-
-**Required** The path to the issue template file.
-
-### Outputs
-
-#### `issue`
-
-The URL of the created issue.
-
 ## License
 
 The scripts and documentation in this project are released under the [MIT License](LICENSE)
