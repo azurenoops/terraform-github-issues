@@ -1,4 +1,4 @@
-# Terraform GitHub Issues ![release](https://img.shields.io/github/v/release/azurenoops/terraform-github-issues)![job runs](https://img.shields.io/docker/pulls/danielflook/terraform-github-issues?label=job%20runs)
+# Terraform GitHub Issues ![release](https://img.shields.io/github/v/release/azurenoops/terraform-github-issues)![job runs](https://img.shields.io/docker/pulls/azurenoops/terraform-github-issues?label=job%20runs)
 
 ## Usage
 
